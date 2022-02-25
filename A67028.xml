@@ -1,0 +1,906 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Orbilius vapulans or A juniper lecture for a moth-eaten scholar By the authour of the Coffee scuffle.</title>
+            <author>Woolnoth, fl. 1662.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1662</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 30 KB of XML-encoded text transcribed from 14 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A67028</idno>
+            <idno type="STC">Wing W3528A</idno>
+            <idno type="STC">ESTC R221242</idno>
+            <idno type="EEBO-CITATION">99832577</idno>
+            <idno type="PROQUEST">99832577</idno>
+            <idno type="VID">37051</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A67028)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 37051)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2105:07)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Orbilius vapulans or A juniper lecture for a moth-eaten scholar By the authour of the Coffee scuffle.</title>
+                  <author>Woolnoth, fl. 1662.</author>
+               </titleStmt>
+               <extent>23, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>printed in the year, 1662.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Author of the Coffee scuffle" identified as "Woolnoth" (cf. Wing and NUC pre-1956 imprints).</note>
+                  <note>In verse, with Latin verse on pp. 20-23.</note>
+                  <note>Copy title page stained affecting title spelling and punctuation.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Satire, English --  Early works to 1800.</term>
+               <term>Verse satire, English --  Early works to 1800.</term>
+               <term>Verse satire, Latin (Medieval and modern) --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-04</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-05</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2012-05</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:37051:1"/>
+            <p>Orbilius Vapulans <hi>OR A</hi> Juniper Lecture <hi>FOR A</hi> Moth.eaten Sch<gap reason="illegible" resp="#UOM" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>
+            </p>
+            <p>
+               <hi>By the Authour of the</hi> Coffee <hi>Scuffle.</hi>
+            </p>
+            <q>
+               <lg>
+                  <l>Torva-Mimalloneis implerunt Cornua bombis,</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> rapium vitulo caput ablatura ſuperbo</l>
+                  <l>Baſſaris, &amp; lyncem Maenas flexura corymbis,</l>
+                  <l>Evion ingeminat, reparabilis adſonat Eccho:</l>
+               </lg>
+               <bibl>Perſii. Sat 1.</bibl>
+            </q>
+            <q>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>:</q>
+            <lg>
+               <l>When I do well, Fanaticks ill do prate:</l>
+               <l>Each Loyal ſoul muſt ſtill expect my fate.</l>
+            </lg>
+            <p>
+               <hi>London,</hi> Printed in the Year, 1662.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:37051:2"/>
+            <pb facs="tcp:37051:2"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:37051:3"/>
+            <pb n="3" facs="tcp:37051:3"/>
+            <head>Orbilius Vapulans</head>
+            <div type="riddle">
+               <lg>
+                  <head>A Riddle.</head>
+                  <l>
+                     <g ref="char:V">Ʋ</g>nfold this Riddle <hi>Corydon</hi> or <hi>Jynx,</hi>
+                  </l>
+                  <l>Who's He that is both <hi>Oedipus</hi> and <hi>Sphynx?</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <head>The Solution.</head>
+                  <l>It is the Doubty Paedagogue I ween</l>
+                  <l>With Flounder's face, Hogs ſnout, &amp; Grinders keen,</l>
+                  <l>Who <hi>Coffee</hi> drank, and then diſgorg'd the Scum</l>
+                  <l>In Verſe, prefer'd to many a Loyal bum;</l>
+                  <l>
+                     <hi>Evans ap Shone's, ap Morgan,</hi> are his names</l>
+                  <l>He flew from <hi>Penmen-maure</hi> to th'banks of Thames</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <l>HOld good <hi>Knock ſergus!</hi> but have Drones their ſtings?</l>
+                  <l>May Pedagogu's, and ſuch inferior things,</l>
+                  <l>Thus play the Tyrants, ſtamp upon the Stage,</l>
+                  <l>Outſtorme an Hector, and like <hi>Bravoes</hi> rage?</l>
+               </lg>
+               <lg>
+                  <pb n="4" facs="tcp:37051:4"/>
+                  <l>Rods into Scepters Bloom, Peaſants, commence</l>
+                  <l>Dictators now, <hi>Quintilian</hi> act's the Prince;</l>
+                  <l>School's Flouriſh into Courts, and each bold wight,</l>
+                  <l>Is a <hi>Fanatick</hi> or a <hi>Paraſite.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Hark how he greets me, ho! at what a rate</l>
+                  <l>He complements! I challenge <hi>Billings gate</hi>
+                  </l>
+                  <l>From the crab Trull, unto the Oyſter Quean</l>
+                  <l>To forge a name more ugly and obſcene,</l>
+                  <l>Than are the beſt, the moſt refind of theſe;</l>
+                  <l>
+                     <hi>Mephytis</hi> ſink of all ſcurrilities!</l>
+               </lg>
+               <lg>
+                  <l>The <gap reason="illegible" resp="#UOM" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>ſty Lyrick in feverer rimes</l>
+                  <l>Ne're laſh't the Drolls, and bablers of the Times;</l>
+                  <l>Nor <hi>Caeſars</hi> Favourite with greater rage</l>
+                  <l>Kick't the Grammarians off the <hi>Roman</hi> Stage,</l>
+                  <l>Then this proud Scioliſt, abſurd <hi>Pedant</hi>
+                  </l>
+                  <l>(But that he doth their wit and learning want)</l>
+                  <l>
+                     <hi>Gib's</hi> his Antagoniſt: Good Gaffer hold!</l>
+                  <l>So the poor Cuckold did in <hi>Plautus</hi> ſcold.</l>
+               </lg>
+               <lg>
+                  <l>Avaunt <hi>Jack Cleaveland!</hi> ſee you come not nigh,</l>
+                  <l>By forty foot! <hi>E.</hi> is too hard for <hi>I:</hi>
+                  </l>
+                  <l>You whoſe each Verſe could diſcipline a Drab,</l>
+                  <l>That bite like <hi>Scorpions,</hi> like <hi>Stillettos</hi> ſtab;</l>
+                  <l>You that could with a Drop of Inke, no more</l>
+                  <l>Make <hi>Adoniram</hi> run, and <hi>Marſhall</hi> roare;</l>
+                  <l>You that could murder with a ſingle ſhot</l>
+                  <l>The motly Synod, and the Rebell Scot;</l>
+               </lg>
+               <lg>
+                  <l>Fell Monſter born with teeth, ſtrung all with wire,</l>
+                  <l>A Woolf thy Nurſe, a Dragon was thy Sire!</l>
+                  <pb n="5" facs="tcp:37051:4"/>
+                  <l>Here is the Poet <hi>Jack,</hi> ay! here is he</l>
+                  <l>None of the fudling gang, whoſe phantaſie</l>
+                  <l>Floats with the liquour, doth augment and grow,</l>
+                  <l>Fall, dwindle'as the Goblets ebb and flow.</l>
+                  <l>Such <hi>Greek</hi> and <hi>Latine</hi> lines the fool doth draw</l>
+                  <l>As <hi>Virgil</hi> never ſcan'd, nor <hi>Homer</hi> ſaw.</l>
+               </lg>
+               <lg>
+                  <l>But tell me good Sir Knight, pray why is it</l>
+                  <l>You thus engage your ſelf ſans fear or wit?</l>
+                  <l>What Windmill, Umbra, May-pole, Zealous ſir</l>
+                  <l>Offends your Gizzard, that you thus beſtir</l>
+                  <l>The Weapens of your Warrfare? when by chance</l>
+                  <l>'Tis but the Spectre that doth friſk and dance</l>
+                  <l>In your own phancy; Anagrams declare</l>
+                  <l>Yet him conceal whoſe name the letters bear.</l>
+                  <l>Fy wretched <hi>Codrus!</hi> thus to fret and vex</l>
+                  <l>For nothing! Brawles ſo well become your ſexe?</l>
+                  <l>Knave, Raſcall, Villain, Helhound, Hector, Sor,</l>
+                  <l>Groom, Hangman, Scullion, Pick-thank and what not?</l>
+                  <l>Smooth Epethits in truth, ſo women uſe</l>
+                  <l>For Recreation ſake to diſabuſe</l>
+                  <l>Themſelves, ſo the meek and diſſenting Saint</l>
+                  <l>Doth Loyall <hi>Levy</hi> brand and repreſent:</l>
+                  <l>
+                     <hi>Britannicus, Cretenſis</hi> breath in you</l>
+                  <l>The Youngling Elder, and Smectymnuus too<g ref="char:punc">▪</g>
+                  </l>
+                  <l>'Tis one thing Sir to puniſh and chaſtiſe</l>
+                  <l>A ſtubborne boy whoſe immoralities</l>
+                  <l>Call for ſeverer cenſures, but withall</l>
+                  <l>Another thing to Scuffle for the Ball.</l>
+                  <l>You ſmite his lewd poſteriours, he poor thing</l>
+                  <l>After one ſtroke about your knee's doth cling,</l>
+                  <l>Kiſſes the rod: while the bold enemy</l>
+                  <l>Kicks at the hand, and ſpurn's the penalty.</l>
+                  <pb n="6" facs="tcp:37051:5"/>
+                  <l>Suppoſe young <hi>Phaethon</hi> crack his Father's Whip,</l>
+                  <l>Scourges <hi>Pyroeis,</hi> mak's old <hi>Phlegon</hi> ſkip,</l>
+                  <l>Wot you the angry ſteeds will ſoftly go,</l>
+                  <l>And not the waine and Giddy Guide o'rethrow?</l>
+                  <l>If Beaſts, if Worms, and Flies diſdain, abhor</l>
+                  <l>Affronts and Injuries, ſure men much more.</l>
+               </lg>
+               <lg>
+                  <l>I cannot bear it (Lord) I cannot do't,</l>
+                  <l>Say every laſh did ſlay a ſin to boot,</l>
+                  <l>A mortall ſin; ſuppoſe this inſtant were</l>
+                  <l>
+                     <hi>Good-Friday,</hi> and the man my confeſſor;</l>
+                  <l>Fayth were I ſtript of fleſh, were I refin'd</l>
+                  <l>Into a ſhadow, were the ſpright and minde</l>
+                  <l>The bigger half, had the <hi>Promethean</hi> fire</l>
+                  <l>Rarify'd nature from its dreggs and mire:</l>
+                  <l>A ring, a ring (Brave Boys) I neither fear,</l>
+                  <l>His frown, nor Court his ſmile, the Wooden Bear,</l>
+                  <l>Rod, <hi>ferula,</hi> ſlight poor and triviall Tools</l>
+                  <l>Made for to fray and ſcare chitts, changlings, fools;</l>
+                  <l>Be ſtill a while, nor me ith' leaſt annoy,</l>
+                  <l>I am reſolv'd to act the Stubborn boy.</l>
+               </lg>
+               <lg>
+                  <l>And yet methinks what e'r the vixen ſayes,</l>
+                  <l>Tis ſome ſmall comfort to be laſh't with Bayes,</l>
+                  <l>Smart Rods but ſweet! a Satyriſt both claws</l>
+                  <l>And bites at once! Black Monday makes white boy's.</l>
+                  <l>Inſtruction is like Phyſick, leſſe or more</l>
+                  <l>May be received at the Poſtern dore.</l>
+               </lg>
+               <lg>
+                  <l>Me thinks I could even ſtrip my ſelf, expoſe</l>
+                  <l>My naked loynes unto the ſtripes and blows</l>
+                  <pb n="7" facs="tcp:37051:5"/>
+                  <l>Of an Ingenious hand, could hear him crack</l>
+                  <l>The threefold cord, Plow furrows on my back;</l>
+                  <l>But to be baſtinado'd by a baſe</l>
+                  <l>And forbid Raſcall, to expoſe my face</l>
+                  <l>To ſlaves, to have my Groome (whoſe villanies</l>
+                  <l>The ſkittiſh Colt did with his hoof chaſtiſe)</l>
+                  <l>To cuff and kick me, to o'reheare a ſot,</l>
+                  <l>A Tyro, Dunce, a Fool, call Ideot;</l>
+                  <l>This, this would eve'n enrage, provoke, incenſe</l>
+                  <l>A man of Marble, trie the patience</l>
+                  <l>Of <hi>Job,</hi> make <hi>Socrates</hi> himſelf to mutter</l>
+                  <l>An <hi>Iſraelite</hi> repine, and <hi>Moſes</hi> ſtutter.</l>
+               </lg>
+               <lg>
+                  <l>Nor ſay Ingenious Souls can'er be led</l>
+                  <l>To curſe, to ſlander, and moleſt the dead;</l>
+                  <l>Kick bones about the ſtreets, rifle the Urnes</l>
+                  <l>Of Prieſts and Princes, clip the Flame that burns</l>
+                  <l>In the ſtill grot, blow aſhes here and there,</l>
+                  <l>As Winds whiff meteors to and fro ith' aire:</l>
+                  <l>If <hi>Grotius</hi> be an <hi>Heretick,</hi> a ſon</l>
+                  <l>Of the old Whore, he was a Learned one;</l>
+                  <l>If not, let nothing that is vile be ſaid;</l>
+                  <l>Speak well behinde his back, the Lyon's dead.</l>
+               </lg>
+               <lg>
+                  <l>They'r Wolves and Tigers will not wink, and ſpare</l>
+                  <l>The quiet Trunks, and ſilent heaps that are</l>
+                  <l>In Tombes, whom Searcloths do defend and keep,</l>
+                  <l>And on whoſe locks, Stones, Clay, and Marbles Weep:</l>
+                  <l>And he that ſhall diſplay the nakedneſſe</l>
+                  <l>Of a dead father, not at all confeſſe</l>
+                  <l>A bluſh, deride ſcoff at the modeſt man</l>
+                  <l>That turn's his head, cal't ſuperſtition,</l>
+                  <pb n="8" facs="tcp:37051:6"/>
+                  <l>This wretch tranſcends the Devill and his Dam</l>
+                  <l>May he be ſon and heir to curſed Cham!</l>
+               </lg>
+               <lg>
+                  <l>And thou Religious ſoul how could'ſt thou chooſe,</l>
+                  <l>But bleed to ſee the Miſcreant abuſe</l>
+                  <l>Thoſe ſacred Crumms? and in a holy rage</l>
+                  <l>(For paſſion thou haſt none) aſcend the Stage</l>
+                  <l>Chide the Sacrilegiſt? who now defies</l>
+                  <l>Thee and the Goblin, tells a thouſand lies.</l>
+               </lg>
+               <lg>
+                  <l>How couldſt thou ſuffer an indignity</l>
+                  <l>From ſuch a Worm, a Mirmidon as he</l>
+                  <l>And not have gi'n the Crow's him preſently?</l>
+               </lg>
+               <lg>
+                  <l>Come forth thou ſonn of <hi>Mars,</hi> unſheath thy blade,</l>
+                  <l>Send his black Soul into the Stygian ſhade;</l>
+                  <l>Where grizly firends with ſharp and flaming rods</l>
+                  <l>Preach juſtice, and ſubmiſſion to the gods.</l>
+               </lg>
+               <lg>
+                  <l>Know you that were ſpectators at that time,</l>
+                  <l>None held their peace but did abet the crime:</l>
+                  <l>Call it not <hi>Peccadillo<g ref="char:punc">▪</g>
+                     </hi> little, ſmall;</l>
+                  <l>'Twas groſſe, 'twas divelliſh, it was nationall.</l>
+                  <l>Say had the Combate been twixt thee and I,</l>
+                  <l>The Latine Moth, and the poor Engliſh fly;</l>
+                  <l>The Frog and Mouſe that in the Fable were,</l>
+                  <l>The Humble bee, and the incenſed Bear;</l>
+                  <l>Woe worth thy dayes, poor Taffee, ſplutternayles,</l>
+                  <l>Her would have ſent her packing into <hi>Wales</hi>
+                  </l>
+                  <l>With a blinde Gipſie and a paſſe: for all<g ref="char:punc">▪</g>
+                  </l>
+                  <l>Her pettigree and monthly vailes not ſmall.</l>
+                  <pb n="9" facs="tcp:37051:6"/>
+                  <l>But oh the Pamphlet! oh! the monſtrous ragg</l>
+                  <l>Blown to and fro, 'twould make one break his Cragg</l>
+                  <l>To read the Libell, faith it ſeems to me</l>
+                  <l>No other than a ſucking prodigy.</l>
+                  <l>Did ever London ſee, good <hi>Goſſip</hi> ſpeake</l>
+                  <l>A Romiſh bantling with an Engliſh Beake?</l>
+                  <l>
+                     <hi>Brekekekex,</hi> the Empuſa appeares,</l>
+                  <l>Runaway <hi>Jack</hi> and he that loſt his ears,</l>
+                  <l>Old <hi>Hugh,</hi> blinde <hi>Milton, Jeamy, Zepheniah</hi>
+                  </l>
+                  <l>The <hi>Savoy</hi> Woolf, lew'd <hi>Ned</hi> great <hi>Obadiah</hi>
+                  </l>
+                  <l>Ne'r Father'd ſuch a mome, the Son and Heir</l>
+                  <l>Of ſome light wanton <hi>Incubus</hi> I ſwear.</l>
+               </lg>
+               <lg>
+                  <l>The two leg'd Puppy that the elders made</l>
+                  <l>Kenel'd: for luſty ſwaſh forſooth had laide</l>
+                  <l>His taile in <hi>Jeanys</hi> lap, the ſhagged Moore</l>
+                  <l>That a faire Maddam by a Monkey bore;</l>
+                  <l>The <hi>Scotch</hi> ſpred <hi>Eagle</hi> which (the <hi>Legends</hi> ſay)</l>
+                  <l>A holy Siſter hatch'd the other day,</l>
+                  <l>Add Filly foal to boot, the hopefull Heire</l>
+                  <l>Of <hi>Green</hi> the Quaker, and old <hi>Roan</hi> his Mare;</l>
+                  <l>None of all theſe a ſweeter Moppet was,</l>
+                  <l>Truſt me it is a dainty babe of grace.</l>
+               </lg>
+               <lg>
+                  <l>Was ever man ſo groſſe, ſo damn'd a fool!</l>
+                  <l>An Engliſh Title and a Latine Scroll?</l>
+               </lg>
+               <lg>
+                  <l>Right <hi>Sturbridg</hi> Ware, a Linſy Woolſy pack,</l>
+                  <l>Party perpale, Tiffe daſh'd with nobler Sack;</l>
+                  <l>
+                     <hi>Greek, Latine, Engliſh,</hi> jumbl'd in one ſheet,</l>
+                  <l>
+                     <hi>Bombolobombaxe</hi> and <hi>Alaſtor</hi> meet.</l>
+               </lg>
+               <lg>
+                  <pb n="10" facs="tcp:37051:7"/>
+                  <l>A Learned <hi>Weaver</hi> (if I ha'nt miſtook)</l>
+                  <l>Fixt a <hi>Greek</hi> Title to an Engliſh Book;</l>
+                  <l>The Whipping Presbyter though much to blame</l>
+                  <l>Chriſten's a <hi>Scotch</hi> Barne with a <hi>Romiſh</hi> name;</l>
+                  <l>But never any man play'd ſuch a trick</l>
+                  <l>As this (without a ſcoff) a cuff, a kick</l>
+                  <l>Is thy deſert; it had been well if you</l>
+                  <l>Had wrote the Prologue in red letters too.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>The Coffee Scoffer</hi> cuff't and kickt, a bold</l>
+                  <l>And odious Title! Skittiſh jades of old</l>
+                  <l>Kick harmleſſe paſſengers: but then I fegs</l>
+                  <l>They clap bolts, padlocks, trammells on their leggs.</l>
+               </lg>
+               <lg>
+                  <l>O thou miſcheivous Beaſt, plague worſe than froggs</l>
+                  <l>And lice, kick me no kicks! go kick your dogs</l>
+                  <l>Your ſlaves, your boyes, get to your ſchool there you</l>
+                  <l>Are Tyrant Tray tor, Judg and hangman too.</l>
+                  <l>Thinkſt then proud Caitiff any man will be</l>
+                  <l>So much a dolt? as to be ſpurn'd by thee?</l>
+                  <l>By thee baſe worm! proud <hi>Pedant,</hi> Muſhrome, Slave</l>
+                  <l>To every ſhit- breech boy and piſtay'l knave?</l>
+                  <l>No no pimp, prickear, villan, dandeprat,</l>
+                  <l>(An Object fitter for contempt then hate)</l>
+                  <l>I ſcorne thy threats (by Kate and Ixions wheels)</l>
+                  <l>Kick once more Sir: I'l lay you by the heels:</l>
+                  <l>And leave you no more eares, (by <hi>Bucer</hi>'s bones)</l>
+                  <l>Then 'tis reported Captain <hi>M.</hi> 
+                     <hi rend="sup">d</hi> hath ſtones.</l>
+               </lg>
+               <lg>
+                  <l>But had the <hi>Romans</hi> ſuch good hands and hoofs,</l>
+                  <l>Play'd they at foot-ball, and at fiſticuffs?</l>
+                  <pb n="11" facs="tcp:37051:7"/>
+                  <l>Sure no! The ſword, the bow, the warlike ſpeare</l>
+                  <l>Become the camp, the Amphitheatre:</l>
+                  <l>Yet heels do not amiſs, what e'r you ſay</l>
+                  <l>Firſt they offend, and then they run away.</l>
+                  <l>But oh 'tis not enough (bold knave) for thee</l>
+                  <l>To kick thy foe but he muſt ſlander'd be;</l>
+                  <l>Dirt, Ordure, filth is thrown in every part;</l>
+                  <l>As if ſo be you'd ſtudy'd the black Art;</l>
+                  <l>Had vow'd, reſolv'd to render me deforme,</l>
+                  <l>And ugly as thy ſelf, vile worthleſſe worme!</l>
+               </lg>
+               <lg>
+                  <l>I am a ſcoffer! thou a lyer art!</l>
+                  <l>And though five thouſand devills take thy part</l>
+                  <l>I'l prove the charge; the place and company</l>
+                  <l>No Gentleman doth more revere than I:</l>
+                  <l>There the accompliſh't and ingenious Knight</l>
+                  <l>Gives Oracles; there do the ſonns of light</l>
+                  <l>And peace meet in a convocation; there</l>
+                  <l>The ſubtle and profound Philoſopher</l>
+                  <l>Reads Lectures; there the Learned Doctors meet</l>
+                  <l>Diſcourſe the Patient to his winding ſheet;</l>
+                  <l>There the pale Chymiſt, waking with the Cock</l>
+                  <l>Tells how he ſtript dame Nature to her ſmock;</l>
+                  <l>There the dark Statiſt in a corner ſits</l>
+                  <l>Talks Matchivell, condemns the vulgar witts;</l>
+                  <l>There the grave Lawyer ſtroak's his beard and talks</l>
+                  <l>Not of Spring<g ref="char:punc">▪</g> Garden or of Grayes-Inn Walks,</l>
+                  <l>But of old Records; <hi>Archimedes</hi> ſonn</l>
+                  <l>Numbers the ſands, and ſpans the Horizon;</l>
+                  <l>There the rich Merchants one another pleaſe</l>
+                  <l>With news of loſſe and gain, of winds and ſeas;</l>
+                  <pb n="12" facs="tcp:37051:8"/>
+                  <l>
+                     <hi>Dons, Mounſieurs, Segneours,</hi> in their language ſpeak,</l>
+                  <l>The ſullen <hi>Jew</hi> ſalutes the merry <hi>Greek;</hi>
+                  </l>
+                  <l>And there the peviſh Pedagogue intrude's</l>
+                  <l>Himſelf, breed's quarrells, diſtances and fewds.</l>
+               </lg>
+               <lg>
+                  <l>The <hi>Company</hi> I love, nor do I leſſe</l>
+                  <l>Applaud the Liquour: none but will confeſſe</l>
+                  <l>The worth of Coffee: <hi>Pagans, Turks</hi> and <hi>Jews</hi>
+                  </l>
+                  <l>This ſoveraign drink as food and Phyſick uſe.</l>
+               </lg>
+               <lg>
+                  <l>The Boon Companion whom the wine deprives</l>
+                  <l>Of Reaſon, drinks a Diſh and ſtraight retrives</l>
+                  <l>His wonted ſence; the Studious Scholler keeps</l>
+                  <l>Hereby his Eylids from incroaching ſleeps;</l>
+                  <l>This tunes the tongue, ſtrikes on that ſacred Lute,</l>
+                  <l>While other liquids render perſons mute.</l>
+               </lg>
+               <lg>
+                  <l>Who's now the Coffee Scoffer? who derides</l>
+                  <l>This <hi>Panacaea?</hi> is't not hee that prides</l>
+                  <l>Himſelf in Bugbear termes, in crabbed names,</l>
+                  <l>Riddles, Aenigmas, Problems, Anagrams?</l>
+                  <l>Right <hi>John Pontaeus,</hi> ſo the knave delights</l>
+                  <l>To call his Papers by hard Epethites.</l>
+                  <l>
+                     <hi>Sphynx, Sybill,</hi> and <hi>Medea,</hi> none of theſe</l>
+                  <l>With all their Miſtick knotts, and ſubtilties;</l>
+                  <l>Nor all the cunning women you can finde</l>
+                  <l>Can play the Mid-wife to the Authors minde:</l>
+                  <l>Riddle the Riddle, it is worth my paines</l>
+                  <l>For to tranſcribe it, O they'r lofty ſtraines!</l>
+               </lg>
+               <lg>
+                  <pb n="13" facs="tcp:37051:8"/>
+                  <head>A Riddle.</head>
+                  <l>What man and matter tell me friends with ſpeed</l>
+                  <l>Doth ſcribble lies and filthy flies doth feed?</l>
+               </lg>
+               <lg>
+                  <head>The Solution.</head>
+                  <l>Woolen breeds Moths (a wretch whom I did name</l>
+                  <l>That hath no witt, no worth, no grace, no ſhame)</l>
+               </lg>
+               <lg>
+                  <l>And in ſuch haſt, a galloper in'deed!</l>
+                  <l>Muſt you be anſwer'd and with ſo much ſpeed?</l>
+                  <l>Are flies, and Moths, ſuch little things as they</l>
+                  <l>Matters of ſuch importance, no delay?</l>
+                  <l>Is ſcribling Treaſon? is to tell a fibb</l>
+                  <l>So great a crime? for ſo the Pygotrib</l>
+                  <l>Inſinuats; to feed ſuch dorrs as the</l>
+                  <l>Wormes, Creepers, Trencher Flies ſuch villany?</l>
+                  <l>Grant that I am a Moth, 'twould be a ſhame</l>
+                  <l>For you to cope with me, but little fame</l>
+                  <l>Reſults from ſuch a fight, each fool I faith</l>
+                  <l>Can bruſh a Garment, whisk a Moth to death.</l>
+               </lg>
+               <lg>
+                  <l>O thou mischievous wretch, thou wicked one!</l>
+                  <l>Maligner of a reputation</l>
+                  <l>Too large for thee to graſp! my nature, name</l>
+                  <l>Bold Ignoramus croſſe thy Anagram:</l>
+                  <l>Woolen breed's Moths, I pitty thee poor fool!</l>
+                  <l>My name and calling neither Moth nor Wooll,</l>
+                  <pb n="14" facs="tcp:37051:9"/>
+                  <l>Me thinks you might have found an Elogy</l>
+                  <l>More pertinent, Waſpe, Lyzard, Golde flie;</l>
+                  <l>Why not the prodigall, the Widows Groat</l>
+                  <l>Young <hi>Annanias,</hi> ſomthing made of nought;</l>
+                  <l>Loe theſe are Scripture names and would have done</l>
+                  <l>The feat, Moth fitts not my Vocation.</l>
+                  <l>But wit's a parlous ape! and Poets may</l>
+                  <l>Have Licenſes ſometimes to go a ſtray:</l>
+                  <l>A <hi>Pegaſus</hi> may trip, the Delphian Quire</l>
+                  <l>May ſing a wrong tune to the Sacred lyre:</l>
+                  <l>Lies are but fables, fables the effect</l>
+                  <l>Of a good phancy: Piſh 'twas a neglect!</l>
+               </lg>
+               <lg>
+                  <l>Although I do excuſe the little faults</l>
+                  <l>And frieks of Schollers, fancy great aſſaults</l>
+                  <l>By leſſer Brawls, yet I abominate</l>
+                  <l>A Rabſheka: a Gods name let'em prate,</l>
+                  <l>Wrangle till domeſ day, to eternity</l>
+                  <l>Barr they baſe Names, and filthy Ribaldry.</l>
+                  <l>Say hee's a fiend, a Devill that ſhall go</l>
+                  <l>Not only to debaſe, but damne his foe;</l>
+                  <l>Firſt in a Joke inſinuate his name</l>
+                  <l>Than ſay he hath no wit, no grace, no ſhame.</l>
+               </lg>
+               <lg>
+                  <l>Ambitious Mortall that ſhall make himſelf</l>
+                  <l>Searcher of hearts! baſe, vile blaſphemous elf!</l>
+                  <l>Are you and Heaven ſuch good friends I wiſs?</l>
+                  <l>Be Frogs fit Cronies for great <hi>Hercules?</hi>
+                  </l>
+                  <l>What Pidgeon hath been billing in your ear?</l>
+                  <l>Who told thee ſo? thou ſon of <hi>Lucifer!</hi>
+                  </l>
+                  <l>To ſay I have no wit is as I live</l>
+                  <l>An injury that I could ne'r forgive:</l>
+               </lg>
+               <lg>
+                  <pb n="15" facs="tcp:37051:9"/>
+                  <l>Did I not reflect on the Author, He</l>
+                  <l>Is but a wittall that doth cenſure me.</l>
+                  <l>To ſay I have no grace, if not a flam</l>
+                  <l>A bold Aſſertion, Grace is like a dram</l>
+                  <l>Of Muſtard ſeed, too ſmall, minute I ween</l>
+                  <l>To be by ſuch an Owl and Buzard ſeen.</l>
+                  <l>Were you ingenious, you would be loth</l>
+                  <l>To gire a perſon that's devoid of both:</l>
+                  <l>A graceleſſe fool is the moſt ſad, forlorne</l>
+                  <l>Perſon, object of pitty not of ſcorne.</l>
+                  <l>Ingeniouſly I can't but thank you Sir</l>
+                  <l>For this your charitable character:</l>
+                  <l>And would retort the like but that inſooth</l>
+                  <l>I ſhould thereby conſtrain you to ſpeak Truth.</l>
+               </lg>
+               <lg>
+                  <l>Know herein lies my wit, thou prating pie!</l>
+                  <l>That I can heare thy ſcoffs ſo patiently;</l>
+                  <l>Herein my modeſty is manifeſt</l>
+                  <l>I bluſh to read thy lines, although the beſt;</l>
+                  <l>And for mygrace, lo hence it doth appear,</l>
+                  <l>All my revenge ſhall be an honeſt prayer;</l>
+                  <l>O thou that lookeſt from the Starry place</l>
+                  <l>Send Him more wit (good Lord) and I more grace!</l>
+               </lg>
+               <lg>
+                  <l>And yet he doth but jeſt, but gratifies</l>
+                  <l>A pleaſant humour, theſe are Moths &amp; flies</l>
+                  <l>Puns, quibles quillets, trifles, tricks &amp; toys</l>
+                  <l>The ſport of wiſe men, and the pride of boys:</l>
+                  <l>But now he rails down right, in earneſt flings</l>
+                  <l>Brands about ſtreets, cuts, <hi>Carbanados,</hi> ſtings;</l>
+                  <l>Was ever Whelp ſo fierce? his looks would put</l>
+                  <l>A woman to the ſqueak, diſperſe and rout</l>
+               </lg>
+               <lg>
+                  <pb n="16" facs="tcp:37051:10"/>
+                  <l>A file of Red-coats; how his tangl'd mane</l>
+                  <l>Stares on his creſt! his eyes tranſmit a flame</l>
+                  <l>Fatall as <hi>Baſilisks,</hi> his bloudy beak</l>
+                  <l>Warrs, Maſſacres, and deſolation ſpeak;</l>
+                  <l>Forth with he gripes his fiſt, bites, gnaws the rod</l>
+                  <l>Kicks boys like footballs, now he calls on God</l>
+                  <l>To cleare his innocence, in the next breath</l>
+                  <l>Invocates hell, and all the fiends beneath.</l>
+                  <l>Fury, Frenetick, Cycophant, the ſource</l>
+                  <l>Of vice, Mad-cap, old, <hi>Plutos</hi> Hobby-horſe,</l>
+                  <l>Brazen-face, meal-mouth, pale <hi>Megaera</hi>'s rod,</l>
+                  <l>Young <hi>Thracian,</hi> the ſcourge and Plague of God;</l>
+                  <l>Baſe Cut-throat, Rake-hell, Wild-aſſe, Gally ſlave,</l>
+                  <l>Ripe for the Hang man, Puppy, Cocks-comb, Knave,</l>
+                  <l>Wolf, Monkey, Lyon, Leopard, Beaſt of Prey,</l>
+                  <l>Kite, Flie, Dor, Droane, Mouſe, Creeper ſuch as they;</l>
+                  <l>Jack-puding, Glutton Hang by, Conjuror</l>
+                  <l>Dreamer, Groom, Dung-hil, Serpent, Barking curr;</l>
+                  <l>Theſe are the protty names ('ſides fool and rogue)</l>
+                  <l>This is the manners of the Paedagogue!</l>
+                  <l>Say not that he's ho Poet, that the man</l>
+                  <l>Hath a bad fancy 't cannot bee! who can</l>
+                  <l>Invent ſo many names? but <hi>Welſh</hi>-men be</l>
+                  <l>Well read we ſay in Genealogy<g ref="char:punc">▪</g>
+                  </l>
+               </lg>
+               <lg>
+                  <l>What you a Maſter? I a wretched one!</l>
+                  <l>A Hang man, (ev'ry begger is a Don</l>
+                  <l>In <hi>Spain,</hi> I do confeſſe,) you govern, guide</l>
+                  <l>Untoward boys, who cannot rule your pride!</l>
+                  <l>But bold <hi>Pedant,</hi> if the aſſertions true</l>
+                  <l>Your Belly is the Maſter and not you:</l>
+                  <pb n="17" facs="tcp:37051:10"/>
+                  <l>And all the Art you have, is how to crambe</l>
+                  <l>That endleſs gut, and all devouring wombe.</l>
+                  <l>Say not you honour <hi>Grotius,</hi> leaſt hereby</l>
+                  <l>You make your ſelf to be the prodigy.</l>
+                  <l>A double Tongue is like a Cloven Foot</l>
+                  <l>Both monſtrous are, alaſſe 'tis to no boot</l>
+                  <l>For thee to talk of <hi>Tully,</hi> not a line</l>
+                  <l>Of his thou underſtand'ſt baſe <hi>Cataline!</hi>
+                  </l>
+                  <l>
+                     <hi>Corderius, Textor, Cate,</hi> ſuch as theſe</l>
+                  <l>Are books for thee; if <hi>Tully</hi>'s Offices</l>
+                  <l>Be not too hard, you might do well to read</l>
+                  <l>Them alſo, for good maners you much need.</l>
+                  <l>Nor gratify your ſelf with ſplended names</l>
+                  <l>Preſumptuous Epethites: his worth and fame's</l>
+                  <l>But ſmall, who is conſtraind! unhappy elf</l>
+                  <l>To live unknown, or to applaud himſelf.</l>
+                  <l>Phancy thy ſelf no Swan, or Turtle, neither:</l>
+                  <l>Borrow your honour from a plume, a feather</l>
+                  <l>Batt's, Ravens, Screetch-oules, night<g ref="char:punc">▪</g> birds, Pellicans,</l>
+                  <l>A gagling Gooſe among a flock of Swans,</l>
+                  <l>Even ſuch Art thou proud fool, I do preſume</l>
+                  <l>You will when dying ſing another tune.</l>
+                  <l>The melancholy man that did conceit</l>
+                  <l>Himſelf an aſſe, thought that his hands were feet,</l>
+                  <l>Was tentime's more excuſable than thee</l>
+                  <l>For that he had at leaſt humility.</l>
+               </lg>
+               <lg>
+                  <l>If I break <hi>Priſcians</hi> pate, a rods in piſs</l>
+                  <l>For poor Peel<g ref="char:punc">▪</g> garlick, and forſooth it is</l>
+                  <l>His ignorance: He plucks him limb from limbe</l>
+                  <l>What's folly in his boy, is wit in him.</l>
+                  <pb n="18" facs="tcp:37051:11"/>
+                  <l>Was ever <hi>Meore, Mahometan,</hi> or <hi>Jew,</hi>
+                  </l>
+                  <l>So barbarous, to cut a man in two?</l>
+                  <l>Saw him aſſunder, <hi>Priſcian</hi> thou ſhalt be</l>
+                  <l>Styld Martyr hence, another <hi>Jeremy,</hi>
+                  </l>
+                  <l>Pox on your Malmſy Noſe, a beaſtly ſight</l>
+                  <l>You cannot ſee for't it, obſtruct's your light:</l>
+                  <l>I did not ſay you had the Crincums, no</l>
+                  <l>Or that you ſnuffl'd or did ſtradling go;</l>
+                  <l>Who would be plagued with his conſcience thus?</l>
+                  <l>You ſay your ſelf your Citheriacus:</l>
+                  <l>'Twere very ſad indeed if every one</l>
+                  <l>That ronch't was frenchefy'd, no pox but one?</l>
+                  <l>Yet's not impoſſible, the de'il wait's for</l>
+                  <l>The backſome Girl and doting Bachelor,</l>
+                  <l>Angles for ſuch as theſe, a <hi>David</hi> may</l>
+                  <l>Have a bad fall, a pretious Lambkin ſtray,</l>
+                  <l>An Ephrim wax ſtiff, <hi>Tabitha</hi> faile,</l>
+                  <l>
+                     <hi>Lidy,</hi> and <hi>Priſſe</hi> may have an itching Taile,</l>
+                  <l>Than do not blame me 'twas my love to thee</l>
+                  <l>My tenderneſſe, a holy jealouſy.</l>
+               </lg>
+               <lg>
+                  <l>You King it in the Scufflle, climb a Throne,</l>
+                  <l>And to your Scepter, Diadem, and Throne</l>
+                  <l>You ha ſince annext a pallace and a Queen,</l>
+                  <l>An ample Study and your book I ween;</l>
+                  <l>I wiſh the iſſue and poſterity</l>
+                  <l>That ſpring and do derive from them and thee</l>
+                  <l>Mae be more Beautifull, Fair, Virtuous too</l>
+                  <l>Than any of thy brats were hithertoo.</l>
+                  <l>May they be ſons of ſtrength, of joy and mirth</l>
+                  <l>May no more kick and ſtruggle in the birth!</l>
+                  <pb n="19" facs="tcp:37051:11"/>
+                  <l>I'l ſay but this: I never ſaw a heap</l>
+                  <l>Of viler things<g ref="char:punc">▪</g> odd numbers; only ſpeak</l>
+                  <l>Envy, and hatred, fury, paſſion, rage,</l>
+                  <l>But as for wit and phancy, ſcarce a Page</l>
+                  <l>A line, of all the ſcroll: Alaſſe poor Poet,</l>
+                  <l>So meere a droll a dunce and yet not know it.</l>
+                  <l>One while he plays the thief, anon the lyer</l>
+                  <l>Now he condemns the Doctor, then the Squire;</l>
+                  <l>Sometimes he claws the Knight, with odious Names</l>
+                  <l>Pelts me; anon he ſlights and ſpurns Sir <hi>James:</hi>
+                  </l>
+                  <l>In the ſame breath he railes and doth cologue</l>
+                  <l>Calls pretty youth, and rope deſervign rogue:</l>
+                  <l>I cant but grieve, methinks I could condole</l>
+                  <l>With the poore boys that ſuffer the controle</l>
+                  <l>Of ſuch a furioſo, wretched Maevi!</l>
+                  <l>His pens no ſharper then his hand is heavy.</l>
+                  <l>If he doth lord and dominere ore one</l>
+                  <l>That ſcorns his rule, and domination,</l>
+                  <l>How much a Tyrant is he over yee</l>
+                  <l>Whom he can puniſh by authority?</l>
+               </lg>
+               <lg>
+                  <l>Though I ne'r playd the Orator, nor may</l>
+                  <l>I ever hope (could I) to beg a play</l>
+                  <l>For you poore Lads, I am reſolved to</l>
+                  <l>Laſh the curſt pedant as he ſcourges you:</l>
+                  <l>And make him know for all his cracks, and lies,</l>
+                  <l>That Moths have ſtings as well as Gnats and Flies.</l>
+               </lg>
+            </div>
+         </div>
+         <div type="poem">
+            <pb n="20" facs="tcp:37051:12"/>
+            <head>Paean Triumphalis</head>
+            <lg>
+               <l>JO libemus merum Coprio Jovi,</l>
+               <l>Et dijs minorum Gentium;</l>
+               <l n="2"> Cloacinae<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> matri pandamas Sa<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rum,</l>
+               <l>Quippe occidit pedantius;</l>
+               <l n="3"> Jacet<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> pueri dextra confoſſus Dares</l>
+               <l>Mordens arenam dentibus:</l>
+               <l n="4"> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>Magiſter ignorantiae;</l>
+               <l n="5"> Qui ſemi paganus ſacra Vatum polluit</l>
+               <l>Lacinioſo carmine;</l>
+               <l n="6"> Et puriores rivulos immi ſcuit</l>
+               <l>Smectimnianis ſordibu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</l>
+               <l n="7"> Circumforaneum vah mendicabulum</l>
+               <l>Labes popelli Cambrici!</l>
+               <l n="8"> Quem Campis faetidum gurguſtidonijs</l>
+               <l>Enixa fertur ſpurca ſus:</l>
+               <l n="9">
+                  <pb n="21" facs="tcp:37051:12"/> Triobolaris hiſtrio; metri ſutor</l>
+               <l>Flagri Dynaſtes pesſime;</l>
+               <l n="10"> Hircine maevi; terrae ac caelorumodium,</l>
+               <l>Cerberi faſtidium;</l>
+               <l n="11"> Speras te curru conſidentem eburneo</l>
+               <l>Ferire ſummo Vertice</l>
+               <l n="12"> Stellas, eaſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Evantis (proh quanti viri)</l>
+               <l>Umbram ſequaces lambere!</l>
+               <l n="13"> I, licet ad urbem cuculorum in nubibus</l>
+               <l>Mortalium ſtultiſſime!</l>
+               <l n="14"> Et tandem conſors factus iſtius chori</l>
+               <l>Effunde nugas, Naenias:</l>
+               <l n="15"> I candidate crucis, oſtentans, leve &amp;</l>
+               <l>Febriculo ſum ingenium:</l>
+               <l n="16"> I literator, longa fias litera</l>
+               <l>Cum fune collum obſtrinxeris,</l>
+               <l n="17"> Quid variaris crebro clunes verbere</l>
+               <l>Mores tuos nec corrigis;</l>
+               <l n="18"> Quid rudis adhuc erudito in pulvere</l>
+               <l>Inviſa nobis bellua?</l>
+               <l n="19">
+                  <pb n="22" facs="tcp:37051:13"/> Jactaſve cum te ſanus quiſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> deſpicit</l>
+               <l>Macci<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſoli palpitant.</l>
+               <l n="20"> Abſiſle Momenota ab Academia</l>
+               <l>Solitum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> hiatum comprime,</l>
+               <l n="21"> Nobis dicaces pſittaci bilem movent</l>
+               <l>Et capulares Daemones;</l>
+               <l n="22"> Et qui nefando riſu ſubſannant preces</l>
+               <l>Rituſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſacrae eccleſiae;</l>
+               <l n="23"> Et inficeti paedagoguli gregis</l>
+               <l>Ore ſtrepentes turgido:</l>
+               <l n="24"> Abſiſte ne ſi te baubantem audivero</l>
+               <l>In ſole Gibbum refricem;</l>
+               <l n="25"> Neve aſcia illidatur cruribus tuis</l>
+               <l>Quam tute ſuccenſam geris.</l>
+               <l n="26"> Ferate mur mur ore forſan putrido</l>
+               <l>Tuo<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> mox exaudiam,</l>
+               <l n="27"> Me probri accuſans quod famam lacero tibi</l>
+               <l>Cui fama nulla eſt aut erit:</l>
+               <l n="28"> Aſt tuas querelas non morabor tetricas</l>
+               <l>Quam nemo ſit quin noverit</l>
+               <l n="29">
+                  <pb n="23" facs="tcp:37051:13"/> Tuas non poſſe traloqui impurici<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Nec ter trecentis verſibus.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <lg>
+               <l>Durahem Carmina ais, non ſat ſunt</l>
+               <l>Dura; ſed opto</l>
+               <l>Saxa loqui &amp; ſilices, cum tibi</l>
+               <l>Mome loquor.</l>
+            </lg>
+            <bibl>
+               <hi>Bauhuſ.</hi> Epi. Lib. 1.</bibl>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:37051:14"/>
+            <pb facs="tcp:37051:14"/>
+         </div>
+      </body>
+   </text>
+</TEI>
